@@ -1,5 +1,5 @@
 export myWD=`pwd`
-export OutputBaseDir=${myWD}/data
+export OutputBaseDir=/exp/icarus/data/users/jskim/Generators
 
 echo "# myWD: ${myWD}"
 echo "# OutputBaseDir: ${OutputBaseDir}"
