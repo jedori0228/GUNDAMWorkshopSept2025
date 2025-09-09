@@ -6,4 +6,6 @@ python -m venv ~/myenv
 source ~/myenv/bin/activate
 # install requirements
 pip install -r requirements.txt 
+# Adding this venv to Jupyter
+python -m ipykernel install --user --name=myenv
 ```
