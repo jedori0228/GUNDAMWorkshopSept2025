@@ -1,3 +1,4 @@
 <nuisance>
-  <config AddICARUSVar="1"/>
+  <config Add_ICARUS_QELike="1"/>
+  <config Add_ICARUS_pi0="1"/>
 </nuisance>
