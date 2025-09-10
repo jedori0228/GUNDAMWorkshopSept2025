@@ -1,3 +1,22 @@
+# Build gibbu locally using Alma9+spack
+```
+# load packages from spack
+source setup.sh
+
+# download the pacakge
+source download_r2025_02.sh
+
+# Edit one line from "gibuu-r2025_02-src/release/Makefile"
+# L66~L67
+# #export VERSION='SVN revision $(shell svnversion -n .)'
+# export VERSION='$(shell cat version.txt)'
+
+# build
+source build_r2025_02.sh
+
+
+```
+
 - Edit FileNameFlux
     - Should be a text file (.dat), each line is "energy fluxvalue"
 - Create a directory
