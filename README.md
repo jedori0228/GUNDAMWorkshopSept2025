@@ -36,7 +36,7 @@ by adding "env" part like below:
   "debugger": true
  },
  "env": {
-  "PYTHONPATH": "/home/jskim/lib/LibraryPack/PythonLibraries/:/home/jskim/lib/icarusplot/"
+  "PYTHONPATH": "/home/jskim/lib/icarusplot/"
  }
 }
 ```
