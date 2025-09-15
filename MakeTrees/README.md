@@ -1,4 +1,4 @@
-# Making Trees from CAFAna: A tutorial:
+# Making Trees from CAFAna: A tutorial
 
 This tutorial will cover how to make ROOT TTrees out of CAFAna, going through various aspects of the `Tree` class and including purely truth based trees as well as reconstructed info and systematics.
 
