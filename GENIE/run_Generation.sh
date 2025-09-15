@@ -10,17 +10,14 @@ HornCur=fhc
 # Flux file
 # 1) NuMI
 # - We are using bin-width divided histogram (i.e., each bin content is flux/GeV)
-#   - corrected_flux_fhc_numu_BinWidthDivided
-#   - corrected_flux_fhc_numubar_BinWidthDivided
-#FluxType=ICARUS
-#FluxFilePath=${myWD}/Flux/ICARUS/NuMI/flux_BinWidthDevided_250616.root
+FluxType=ICARUS
+FluxFilePath=${myWD}/Flux/ICARUS/NuMI/flux_BinWidthDevided_250616.root
 FluxHistName_numu=corrected_flux_fhc_numu_BinWidthDivided
 FluxHistName_numubar=corrected_flux_fhc_numubar_BinWidthDivided
 # 2) BNB
-# - hNuE_FV_ZFRONT_FULL_ERANGE
-FluxType=ICARUS_BNB
-FluxFilePath=${myWD}/Flux/ICARUS/BNB/bnb_icarus_numu_histogram.root
-FluxHistName_numu=hNuE_FV_ZFRONT_FULL_ERANGE
+#FluxType=ICARUS_BNB
+#FluxFilePath=${myWD}/Flux/ICARUS/BNB/bnb_icarus_numu_histogram.root
+#FluxHistName_numu=hNuE_FV_ZFRONT_FULL_ERANGE
 
 #------------------------------------
 # - GENIE Tune
